@@ -12,7 +12,34 @@ code, pre, tt {
   font-family: 'Droid Mono', monospace;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  background: transparent url('../images/bird-and-hands.png') no-repeat center;
+}
+
 h1 {
-  background: transparent url('../images/bird-and-hands.png') no-repeat center right;
-  height: 200px
+  position: absolute;
+  top: 53%;
+  left: 40%;
+  font-size: 14pt;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  text-shadow: 0px 0px 5px #666;
+}
+
+#github_ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#github_ribbon a {
+  display: block;
+  height: 149px;
+  width: 149px;
+  background-image: url(http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png);
+  text-indent: -5000px;
 }
