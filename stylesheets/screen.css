@@ -16,11 +16,11 @@ html {
   height: 100%;
 }
 
-body {
+#splash {
   background: transparent url('../images/bird-and-hands.png') no-repeat center;
 }
 
-h1 {
+#splash h1 {
   position: absolute;
   top: 53%;
   left: 40%;
