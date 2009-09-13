@@ -1,4 +1,4 @@
-@import url('droid.css');
+@import url('droid/font-face.css');
 
 body {
   font-family: 'Droid Serif', Georgia, serif;
@@ -17,16 +17,18 @@ html {
 }
 
 #splash {
-  background: transparent url('../images/bird-and-hands.png') no-repeat center;
+  background: transparent url('../images/bird-and-hands.png') no-repeat 55% 48%;
 }
 
 #splash h1 {
   position: absolute;
   top: 53%;
-  left: 40%;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  text-align: center;
   font-size: 14pt;
   text-transform: lowercase;
-  font-variant: small-caps;
   text-shadow: 0px 0px 5px #666;
 }
 

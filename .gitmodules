@@ -1,0 +1,3 @@
+[submodule "stylesheets/droid"]
+	path = stylesheets/droid
+	url = git://github.com/ambethia/droid-fonts.git
